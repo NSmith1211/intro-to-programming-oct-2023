@@ -1,0 +1,15 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+POST http://localhost:1337/todo-list
+Content-Type: application/json
+ 
+{
+  "description": "Get more bread"
+}
+ 
+ 
+###
+ 
+GET http://localhost:1337/todo-list
+
+###
+GET http://localhost:1337/todo-list/5481ece9-3363-472d-9b44-8a850ee2f24d
